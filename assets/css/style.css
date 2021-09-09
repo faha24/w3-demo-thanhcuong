@@ -151,17 +151,18 @@ font-size: 20px;
 
 #slider{
     position: relative;
-   margin-top: 46px;
-   padding-top: 50%;
-   background: url('/assets/img/slider1//1200px-SaViCoDongChinh.jpg')top center / cover no-repeat;
-    background-size: 100% 100%;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url("/assets/img/slider1/1200px-SaViCoDongChinh.jpg")top center/cover no-repeat ;
+    background-size: contain ;
+
 }
 #slider .text-content{
     position: absolute;
     bottom:  77px;
     color: #fff;
     text-align: center;
-    margin-left: 324px;
+    width: 100%;
 }
 #slider .text-heading{
    font-weight: 500;
@@ -173,6 +174,10 @@ font-size: 20px;
     margin-top: 25px;
     font-size: 15px;
 
+}
+#slider .slider-backgroud{
+    background-repeat: no-repeat;
+    padding: 0;
 }
 #content{
 
