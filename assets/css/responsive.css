@@ -1,0 +1,54 @@
+@media all and (max-width: 740px) {
+    #nav > li{
+        display:block;
+    }
+    #header{
+        background-color: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        overflow: hidden;
+    }
+    #header .srearch-btn{
+        float: right;
+        padding: 10px 24px!important;
+        cursor: pointer;
+        color: #fff;
+        font-size: 20px;
+        display: none;
+        }
+        #content .conten-section{
+            
+            padding: 64px 0 112px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .place-item{
+            width: 100%;
+            display: block;
+        }
+        .place-list{
+
+            margin-top: 16px;
+            }
+            .place-img{
+                width: 100%;
+                display: block;
+                height: 100%;
+                margin-top: 16px;
+            }
+
+ }
+ @media all and (min-width:740px) and (max-width:1500px){
+    #header .mobile-menu-btn{
+        float: right;
+        padding: 10px 24px!important;
+        cursor: pointer;
+        color: #fff;
+        font-size: 20px;
+        display: none;
+        }
+ }
+ 

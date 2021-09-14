@@ -130,15 +130,20 @@ html{
     font-size: 16px;
 
 }
+
 #header .srearch-btn:hover {
     background-color: #f44336;
 }
+#header .mobile-menu-btn,
 #header .srearch-btn{
 float: right;
 padding: 10px 24px!important;
 cursor: pointer;
 color: #fff;
 font-size: 20px;
+}
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
 }
     
 #header .srearch-icon{
@@ -150,12 +155,15 @@ font-size: 20px;
 }
 
 #slider{
+
+}
+#slider>img{
+    padding: 0;
     position: relative;
     margin-top: 46px;
-    padding-top: 50%;
-    background: url("/assets/img/slider1/1200px-SaViCoDongChinh.jpg")top center/cover no-repeat ;
+    width: 100%;
+    background: top center/cover no-repeat;
     background-size: contain ;
-
 }
 #slider .text-content{
     position: absolute;
@@ -431,4 +439,5 @@ margin-top: 32px;
         transform: translateY(0px);
     }
 }
+
  
